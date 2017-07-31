@@ -1,0 +1,46 @@
+section#features{
+  margin-bottom: 1em;
+  h2{
+    text-align: center;
+    font-size: 2em;
+    padding: 1em;
+    color: $dark-grey;
+  }
+
+  .feature-icon{
+    border-radius: 50%;
+    padding: 2em;
+    border: 1px solid #F2F2F2;
+    @include shadow;
+  }
+
+  .feature-explanation{
+    text-align: center;
+    h3{
+      padding: 0.5em;
+      font-size: 2em;
+      margin-bottom: 0;
+      line-height: 1em;
+    }
+
+    p{
+      padding: 0.5em;
+      margin: 0;
+      font-size: 1.3em;
+    }
+  }
+
+}
+
+section#mechanism{
+  /* The image used */
+    background-image: url("/img/mechanism.jpg");
+
+    /* Full height */
+    height: 500px;
+
+    /* Center and scale the image nicely */
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
